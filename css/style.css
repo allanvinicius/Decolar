@@ -1,0 +1,1090 @@
+/* Estilos Gerais */
+
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body {
+    width: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 1243px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.avisos {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    padding: 30px 30px 10px 30px;
+    height: 200px;
+}
+
+/* Informacoes header*/
+
+header .left .logo {
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+header .informacoes {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    
+    background: #F6F6F8;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    border-radius: 0px 0px 0px 23px;
+    
+    max-width: 549px;
+    height: 56px;
+    top: 0;
+    left: 800px;
+    color: #474153;
+}
+
+header .informacoes ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .informacoes ul li a {
+    justify-content: space-between;
+    color: #474153;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+header  .informacoes a {
+    display: block;
+}
+
+header  .informacoes ul li img {
+    position: absolute;
+    display: flex;
+    margin-left: -20px;
+}
+
+.header_principal nav ul {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 20px;
+
+    color: #726983;
+}
+
+.header_principal nav ul li a:hover {
+    color: #270570;
+}
+
+/* Banner */
+
+.banner {
+    background: url("../img/bg_banner.png") no-repeat;
+    max-width: 100%;
+    margin-top: 20px;
+    height: 500px;
+}
+
+.banner .top .icon-air {
+    align-items: center;
+    padding-top: 60px;
+}
+
+.banner .top h1 {
+    display: flex;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 64px;
+    align-items: center;
+    max-width: 632px;
+    padding-top: 20px;
+
+    color: #FFFFFF;
+}
+
+.banner .top p {
+    display: flex;
+    align-items: center;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    max-width: 470px;
+    padding-top: 10px;
+    
+    justify-content: start;
+
+    color: #FFFFFF;
+}
+
+.banner .down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.banner .down .icon-select {
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.banner .down p::before {
+    content: url("../img/localizacao.svg");
+}
+
+.banner .down p {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.banner .form {
+    display: flex;
+    max-width: 1170px;
+    height: 192px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 13px 43px rgba(148, 148, 148, 0.5);
+    border-radius: 8px;
+}
+
+.banner .form .up {
+    display: flex;
+    align-items: center;
+}
+
+.banner .form .up h1 {
+    width: 234px;
+    height: 28px;
+    white-space: nowrap;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 30px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #550FED;
+}
+
+.banner .form .up img {
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.banner .form .up span {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 30px;
+
+    color: #474153;
+}
+
+.banner .form .down {
+   display: flex;
+   align-items: center;
+    justify-content: space-between;
+}
+
+.banner .form .down p {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+    color: #474153;
+}
+
+.banner .form .down form {
+    display: flex;
+    max-width: 280px;
+    height: 48px;
+
+    border: 1px solid #D3D0D8;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.banner .form .down .bloco-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+}
+
+.banner .form .down .bloco-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+}
+
+.banner .form .down .bloco-3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 103px;
+}
+
+.banner .form .down .bloco-3 .form-ida {
+    max-width: 103px;
+}
+
+.banner .form .down .bloco-3 .form-ida input {
+    max-width: 103px;
+}
+
+.banner .form .down .bloco-3 .form-ida img {
+    margin-left: -50px;
+    align-items: center;
+}
+
+.banner .form .down .bloco-4 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    max-width: 103px;
+}
+
+.banner .form .down .bloco-4  form {
+    max-width: 103px;
+}
+
+.banner .form .down .bloco-4  form input{
+    max-width: 103px;
+}
+
+.banner .form .down .bloco-4 form img {
+    margin-left: -50px;
+    align-items: center;
+}
+
+.banner .form .down .bloco-5 {
+    display: flex;
+    flex-direction: column;
+    max-width: 180px;
+}
+
+.banner .form .down .bloco-5 .form-pass {
+    max-width: 180px;
+    padding-right: 50px;
+}
+
+.banner .form .down .bloco-5 .form-pass img {
+    margin-left: -50px;
+}
+
+.banner .form .down .bloco-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 54px;
+    height: 47px;
+    background: #550FED;
+    box-shadow: 0px 7px 12px #7443E0;
+    border-radius: 6px;
+    margin-top: 45px;
+    margin-right: 20px;
+}
+
+/* Experiências */
+
+.experiencias {
+    display: flex;
+    align-items: center;
+} 
+
+.experiencias .box-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 70px;
+}
+
+.experiencias h1 {
+    max-width: 1234px;
+    height: 38px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 140px;
+    white-space: nowrap;
+
+    color: #474153;
+}
+
+.experiencias .box-grid .bloco_1 {
+    display: flex;
+    align-items: center;
+    width: 570px;
+    height: 398px;
+    margin-top: 20px;
+    background: url("../img/bg_bloco1.png") no-repeat;
+}
+
+.experiencias .box-grid .bloco_1 p {
+    position: absolute;
+    width: 120px;
+    height: 19px;
+    padding-left: 30px;
+    margin-top: 20px;
+    white-space: nowrap;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.experiencias .box-grid .bloco_1 strong {
+    width: 179px;
+    height: 41px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+}
+
+.experiencias .box-grid .bloco_1 img {
+    margin-left: 260px;
+    margin-top: 100px;
+}
+
+.experiencias .box-grid .bloco_2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    width: 270px;
+    height: 320px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: url("../img/bg_bloco.png") no-repeat;
+}
+
+.experiencias .box-grid .bloco_2 p {
+    width: 175px;
+    height: 18px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: -1px;
+
+    color: #FFFFFF;
+}
+
+.experiencias .box-grid .bloco_2 span {
+    width: 125px;
+    height: 36px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    margin-left: -50px;
+    margin-bottom: 20px;
+
+
+    color: #FFFFFF;
+}
+
+.experiencias .box-grid .bloco_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 270px;
+    height: 320px;
+    margin-top: 20px;
+    background: url("../img/bg_bloco.png") no-repeat;
+}
+
+.experiencias .box-grid .bloco_3 p {
+    width: 175px;
+    height: 18px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+}
+
+.experiencias .box-grid .bloco_3 span {
+    width: 85px;
+    height: 21px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    white-space: nowrap;
+    margin-left: -90px;
+    margin-bottom: 20px;
+
+    color: #FFFFFF;
+}
+
+/* Diversao */
+
+.diversao {
+    background: #F6F6F8;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    height: 500px;
+}
+
+.diversao .title {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.diversao .title h1 {
+    width: 1234px;
+    height: 38px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #474153;
+}
+
+.diversao .title span {
+    width: 87px;
+    height: 17px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    margin-right: 10px;
+
+    text-align: center;
+
+    color: #550FEC;
+}
+
+.diversao .title img {
+    margin-right: 50px;
+}
+
+.diversao .box-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1px;
+    row-gap: 70px;
+    padding-top: 30px;
+}
+
+.diversao .box-grid .bloco-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 270px;
+    height: 320px;
+
+    background: url("../img/bg_diversao.png") no-repeat;
+}
+
+.diversao .box-grid .bloco-1 .aviso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    left: 8.89%;
+    right: 68.52%;
+    top: 53.16%;
+    bottom: 40.53%;
+    width: 50px;
+    height: 20px;
+    margin-left: 20px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 11px rgba(71, 65, 83, 0.16);
+    border-radius: 3px;
+
+    margin-bottom: -10px;
+}
+
+.diversao .box-grid .bloco-1 .aviso span {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: -1px;
+
+    color: #550FED;
+}
+
+.diversao .box-grid .bloco-1 h1 {
+    height: 48px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+
+    color: #474153;
+}
+
+.diversao .box-grid .bloco-1 p {
+    height: 18px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 10px;
+
+    color: #474153;
+}
+
+.diversao .box-grid .bloco-1 span {
+    height: 14px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 10px;
+
+    color: #474153;
+
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.diversao .box-grid .bloco-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 270px;
+    height: 320px;
+
+    background: url("../img/bg_diversao.png") no-repeat;
+}
+
+
+.diversao .box-grid .bloco-2 .aviso1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    left: 8.89%;
+    right: 62.96%;
+    top: 53.16%;
+    bottom: 40.53%;
+    width: 70px;
+    height: 20px;
+    margin-left: 20px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 11px rgba(71, 65, 83, 0.16);
+    border-radius: 3px;
+
+    margin-bottom: -10px;
+}
+
+.diversao .box-grid .bloco-2 .aviso2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    left: 40%;
+    right: 41.48%;
+    top: 53.16%;
+    bottom: 40.53%;
+    width: 50px;
+    height: 20px;
+    margin-left: 20px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 11px rgba(71, 65, 83, 0.16);
+    border-radius: 3px;
+    margin-bottom: -10px;
+}
+
+.diversao .box-grid .bloco-2 h1 {
+    height: 48px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+
+    color: #474153;
+}
+
+.diversao .box-grid .bloco-2 p {
+    height: 18px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 10px;
+
+    color: #474153;
+}
+
+.diversao .box-grid .bloco-2 span {
+    height: 14px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 20px;
+
+    color: #474153;
+
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.diversao .box-grid .bloco-2 .aviso1 span {
+    height: 14px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: -1px;
+
+    color: #550FED;
+}
+
+.diversao .box-grid .bloco-2 .aviso2 span {
+    height: 14px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: -1px;
+
+    color: #03BDA5;
+}
+
+.diversao .box-grid .bloco-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 270px;
+    height: 320px;
+
+    background: url("../img/bg_diversao.png") no-repeat;
+}
+
+.diversao .box-grid .bloco-3 .aviso1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    left: 8.89%;
+    right: 62.96%;
+    top: 53.16%;
+    bottom: 40.53%;
+    width: 70px;
+    height: 20px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 11px rgba(71, 65, 83, 0.16);
+    border-radius: 3px;
+    margin-left: 20px;
+
+    margin-bottom: -10px;
+}
+
+.diversao .box-grid .bloco-3 .aviso2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    left: 40%;
+    right: 41.48%;
+    top: 53.16%;
+    bottom: 40.53%;
+    width: 50px;
+    height: 20px;
+    margin-left: 20px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 11px rgba(71, 65, 83, 0.16);
+    border-radius: 3px;
+
+    margin-bottom: -10px;
+}
+
+.diversao .box-grid .bloco-3 .aviso3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    left: 62.22%;
+    right: 16.67%;
+    top: 53.16%;
+    bottom: 40.53%;
+    margin-left: 20px;
+    width: 50px;
+    height: 20px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 11px rgba(71, 65, 83, 0.16);
+    border-radius: 3px;
+
+    /* width: 100px;
+    height: 50px;
+    background: url("../img/retangulo_aviso.png") no-repeat; */
+    margin-bottom: -10px;
+}
+
+.diversao .box-grid .bloco-3 h1 {
+    height: 48px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+
+    color: #474153;
+}
+
+.diversao .box-grid .bloco-3 p {
+    height: 18px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 10px;
+
+    color: #474153;
+}
+
+.diversao .box-grid .bloco-3 span {
+    height: 14px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 20px;
+
+    color:  #474153;
+
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.diversao .box-grid .bloco-3 .aviso1 span {
+    height: 14px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: -9px;
+
+    color: #550FED;
+}
+
+.diversao .box-grid .bloco-3 .aviso2 span {
+    height: 14px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: -10px;
+
+    color: #03BDA5;
+}
+
+.diversao .box-grid .bloco-3 .aviso3 span {
+    height: 14px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: -10px;
+
+    color: #F9A824;
+}
+
+.diversao .box-grid .bloco-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 270px;
+    height: 320px;
+
+    background: url("../img/bg_diversao.png") no-repeat;
+}
+
+.diversao .box-grid .bloco-4 .aviso1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    left: 8.89%;
+    right: 62.96%;
+    top: 53.16%;
+    bottom: 40.53%;
+    width: 70px;
+    height: 30px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 11px rgba(71, 65, 83, 0.16);
+    border-radius: 3px;
+    margin-left: 20px;
+    /* width: 100px;
+    height: 50px;
+    background: url("../img/retangulo_aviso.png") no-repeat; */
+    margin-bottom: -20px;
+}
+
+.diversao .box-grid .bloco-4 .aviso2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    left: 40%;
+    right: 41.48%;
+    top: 53.16%;
+    bottom: 40.53%;
+    width: 50px;
+    height: 30px;
+    margin-left: 20px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 11px rgba(71, 65, 83, 0.16);
+    border-radius: 3px;
+    /* width: 100px;
+    height: 50px;
+    background: url("../img/retangulo_aviso.png") no-repeat; */
+    margin-bottom: -20px;
+}
+
+
+.diversao .box-grid .bloco-4 h1 {
+    height: 48px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+
+    color: #474153;
+}
+
+.diversao .box-grid .bloco-4 p {
+    height: 18px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #474153;
+}
+
+.diversao .box-grid .bloco-4 span {
+    height: 14px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0 10px 5px 0;
+
+    color: #474153;
+
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.diversao .box-grid .bloco-4 .aviso1 span {
+    height: 14px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: 5px;
+
+    color: #550FED;
+}
+
+.diversao .box-grid .bloco-4 .aviso2 span {
+    height: 14px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: 5px;
+
+    color: #03BDA5;
+}
+
+.diversao .box-grid .bloco-4 .first {
+    display: flex;
+}
+
+.diversao .box-grid .bloco-4 .box .first span {
+    height: 28px;
+    
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 20px;
+
+    color: #474153;
+
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.diversao .box-grid .bloco-4 .second {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+.diversao .box-grid .bloco-4 .second p {
+    height: 18px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    white-space: nowrap;
+    padding: 26px 20px 0 0;
+
+    color: #474153;
+}
+
+/* footer */
+
+footer .copy h1 {
+    width: 1000%px;
+    height: 100px;
+    font-family: Rubik;
+    background: #550FED;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
